@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="test.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-cool-new-mobile-phone-promotion-purple-banner-image_183067.jpg" style="width:100%">
+  <div class="text">
+    <div class="hero__left">
+        <span>New Inspiration 2020</span>
+        <h1>PHONES MADE FOR YOU!</h1>
+        <p>Trending from mobile and headphone style collection</p>
+        <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+      </div>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="https://img.freepik.com/premium-photo/laptop-screen-with-facebook-logo-displayed-with-copy-space-3d-rendering_351527-291.jpg" style="width:100%">
+  <div class="text">
+    <div class="hero__left">
+    <span>New Inspiration 2020</span>
+    <h1>PHONES MADE FOR YOU!</h1>
+    <p>Trending from mobile and headphone style collection</p>
+    <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+  </div></div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="https://stationeryguy.in/wp-content/uploads/2021/10/Computer-Accessories-banner.jpg" style="width:100%">
+  <div class="text">
+    <div class="hero__left">
+    <span>New Inspiration 2020</span>
+    <h1>PHONES MADE FOR YOU!</h1>
+    <p>Trending from mobile and headphone style collection</p>
+    <a href="#"><button class="hero__btn">SHOP NOW</button></a>
+  </div></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 

@@ -1,0 +1,6 @@
+put that link in the head section
+
+
+      <!--- icon-->
+  <link rel="shortcut icon" href="./project assets/screenshots/icon/logo-rem(1).ico" type="image/x-icon">
+
