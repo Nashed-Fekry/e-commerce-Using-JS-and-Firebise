@@ -58,10 +58,11 @@ label{
   z-index: 1055;
   display: none;
   width: 50% !important;
-  height: 20% !important;
+  height: 40% !important;
   overflow-x: hidden;
   overflow-y: auto;
   outline: 0;
+
 }
 
 

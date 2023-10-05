@@ -10,6 +10,9 @@
 td .remove-from-cart{
   cursor: pointer;
 }
+td .remove-from-cart:hover{
+  color: #eb0028;
+}
 
 .OurOffer .Offer{
   margin-top: 100px;
@@ -274,4 +277,17 @@ nav{
 .login-progress{
   
   background-color: #139e3d !important;
+}
+
+.btn-checkout{
+  background-color: #27374D;
+  color: #DDE6ED;
+}
+
+.btn-checkout:hover{
+  background-color: #30a114;
+  color: #DDE6ED;
+}
+.cartWrapper tr:hover{
+  background-color: #9DB2BF;
 }

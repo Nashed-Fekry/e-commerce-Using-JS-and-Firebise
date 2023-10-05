@@ -138,24 +138,25 @@
         <h4 class="modal-heading">Login</h4>
         <br />
         <div class="input-field">
-          <input type="email" id="login-email" autocomplete="off" required />
-          <label for="login-email">Email address</label>
+          <input type="email" id="login-email" placeholder="email"  autocomplete="off" required />
+          <label for="login-email" class="email">Email address</label>
         </div>
         <div class="input-field">
-          <input type="password" id="login-password" autocomplete="off" required />
-          <label for="login-password">Your password</label>
+          <input type="password" id="login-password" placeholder="password" autocomplete="off" required />
+          <label for="login-password" class="password">Your password</label>
         </div>
         <p>
           <a href="#" class="blue-grey-text forget-pass" onclick="forgetpass()">Forget Password?</a>
         </p>
         <small class="signin-error center-align errors"></small>
         <br />
-        <div class="progress login-progress" style="background: none !important; visibility: hidden">
+        <button class="btn z-depth-0 submit-btn">
+          Login
+        </button>
+        <div class="progress login-progress" style="background: none ; visibility: hidden">
           <div class="indeterminate blue darken-3"></div>
         </div>
-        <button class="btn z-depth-0 submit-btn">
-          <i class="material-icons">arrow_forward</i>
-        </button>
+       
         <p>
           <a href="#" class="blue-grey-text forget-pass" onclick="newUser()">New User? Sign-up</a>
         </p>
@@ -224,15 +225,22 @@
     </div>
   </div>
 
-  <div id="modal-account" class="modal center-align">
-    <div class="modal-content center-align">
+  <div id="modal-account" class="modal model-Account center-align">
+    <div class="modal-content center-align" style="text-align: center;">
       <h4 class="modal-heading">Account</h4>
-      <div class="row">
 
+      <div class="row">
+        <img src="img/avatar.png" style="height: 100px;
+                                          width: 130px !important;
+                                          display: block;
+                                          margin-left: auto;
+                                          margin-right: auto;
+                                          margin-bottom: 10px;">
         <p class="account-details"></p>
       </div>
     </div>
   </div>
+  
 
 
   <section  id="features" class="features offersHome" >
