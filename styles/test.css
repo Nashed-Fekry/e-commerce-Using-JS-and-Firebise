@@ -226,3 +226,52 @@ nav{
   background-color: #9DB2BF;
   color: #27374D !important;
 }
+
+
+/*-----------------------------------------*/
+.modal {
+  width: 60%;
+  height: 120% !important;
+}
+
+#login-email{
+  margin-top: 10px;
+}
+.modal .email{
+  font-size: 20px !important;
+  background-color: transparent;
+  color: #27374D !important;
+  margin-bottom: 30px !important;
+}
+.modal .password{
+  font-size: 20px !important;
+  background-color: transparent;
+  color: #27374D !important;
+  margin-bottom: 30px !important;
+}
+
+#login-password{
+  margin-top: 10px;
+}
+
+.forget-pass{
+  text-decoration: none;
+ 
+}
+
+.submit-btn{
+  background-color: #27374D ;
+  color: #e0e0e0;
+
+}
+
+.submit-btn:hover{
+
+  background-color: #9DB2BF;
+  color: #000000;
+}
+
+.login-progress{
+  
+  background-color: #139e3d !important;
+}
