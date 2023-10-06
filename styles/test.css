@@ -291,3 +291,49 @@ nav{
 .cartWrapper tr:hover{
   background-color: #9DB2BF;
 }
+
+
+/*============================================*/
+.Billing-info h5{
+  margin-bottom: 20px;
+  color: #082349;
+}
+.Billing-info label{
+  background-color: transparent;
+  color: #082349 !important;
+  font-size: 18px !important;
+}
+
+.checkout-cart-main h5{
+  margin-bottom: 20px;
+  color: #082349;
+  margin-left: 10px;
+}
+
+.checkout-cart-main tr:hover{
+  background-color: #9db2bf67;
+
+}
+
+.btn-proceed-to-payment {
+  background-color: #082349;
+  color: #e0e0e0;
+}
+
+.btn-proceed-to-payment:hover {
+  background-color: #2e9605;
+  color: #e0e0e0;
+}
+
+.section-title h5{
+ margin-top: 100px;
+color: #082349;
+margin-bottom: 20px;
+}
+ #checkout-section{
+  margin-left: 30%;
+ }
+
+.Creditt{
+  color: #082349;
+}
