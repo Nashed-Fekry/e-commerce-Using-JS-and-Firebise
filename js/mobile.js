@@ -14,7 +14,7 @@ const fetchMobilePhones = (data) => {
   data.map((doc) => {
     const mobilePhones = doc.data();
     const li = `
-    <div class="mobile">
+    <div class="mobile col-lg-3 col-md-4">
     <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="${mobilePhones.image}">
